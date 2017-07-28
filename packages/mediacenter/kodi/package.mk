@@ -17,12 +17,13 @@
 ################################################################################
 
 PKG_NAME="kodi"
-PKG_VERSION="734cda1"
-PKG_SHA256="5224dd437fdd110472fd0612844633642a6959e931f461cd61f1a1bbbb8f6cc4"
+PKG_VERSION="test_zattoo"
+#PKG_VERSION="734cda1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.kodi.tv"
-PKG_URL="https://github.com/xbmc/xbmc/archive/$PKG_VERSION.tar.gz"
+PKG_URL="https://github.com/indritix/xbmc/archive/$PKG_VERSION.tar.gz"
+#PKG_URL="https://github.com/xbmc/xbmc/archive/$PKG_VERSION.tar.gz"
 PKG_SOURCE_DIR="xbmc-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain JsonSchemaBuilder:host TexturePacker:host xmlstarlet:host Python zlib systemd pciutils lzo pcre swig:host libass curl fontconfig fribidi tinyxml libjpeg-turbo freetype libcdio taglib libxml2 libxslt rapidjson sqlite ffmpeg crossguid giflib libdvdnav libhdhomerun libfmt"
 PKG_SECTION="mediacenter"
