@@ -17,12 +17,12 @@
 ################################################################################
 
 PKG_NAME="pvr.zattoo"
-PKG_VERSION="zattoo_dash_master"
+PKG_VERSION="master"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="https://github.com/trummerjo/pvr.zattoo"
-PKG_URL="https://github.com/rbuehlma/pvr.zattoo/archive/$PKG_VERSION.tar.gz"
+PKG_URL="https://github.com/indritix/pvr.zattoo/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform tinyxml2 yajl curl"
 PKG_SECTION=""
 PKG_SHORTDESC="pvr.zattoo"

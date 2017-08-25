@@ -17,14 +17,12 @@
 ################################################################################
 
 PKG_NAME="kodi"
-PKG_VERSION="get_stream_url"
-#PKG_VERSION="a8fe8e3"
-#PKG_SHA256="de78083caa9afe295cbeab9596b3266385f1cd568fa1b085a9f2ddf696d941a5"
+PKG_VERSION="a8fe8e3"
+PKG_SHA256="de78083caa9afe295cbeab9596b3266385f1cd568fa1b085a9f2ddf696d941a5"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.kodi.tv"
-PKG_URL="https://github.com/rbuehlma/xbmc/archive/$PKG_VERSION.tar.gz"
-#PKG_URL="https://github.com/xbmc/xbmc/archive/$PKG_VERSION.tar.gz"
+PKG_URL="https://github.com/xbmc/xbmc/archive/$PKG_VERSION.tar.gz"
 PKG_SOURCE_DIR="xbmc-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain JsonSchemaBuilder:host TexturePacker:host Python zlib systemd pciutils lzo pcre swig:host libass curl fontconfig fribidi tinyxml libjpeg-turbo freetype libcdio taglib libxml2 libxslt rapidjson sqlite ffmpeg crossguid giflib libdvdnav libhdhomerun libfmt"
 PKG_SECTION="mediacenter"
@@ -353,3 +351,4 @@ post_install() {
   enable_service kodi.service
   enable_service kodi-lirc-suspend.service
 }
+
